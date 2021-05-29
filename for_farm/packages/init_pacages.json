@@ -1,0 +1,24 @@
+{
+	"env" : 
+	[{
+		"ANIMAFTP" : "FARM_PATH_ON FARM_TO_FTP" 
+		},
+		{
+		"PROJECT_NAME" : "FARM_PATH_ON FARM_TO_FTP" 
+		},
+		{
+		"JOB" : "$ANIMAFTP/Projects/$PROJECT_NAME"
+		},
+		{
+		"BASEJOB" : "$JOB"
+		},
+		{
+			"HOUDINI_PATH": {
+                "method": "append", 
+                "value": [
+                    "$JOB/lib/houdini"
+					]
+			}
+		}
+	]
+}
