@@ -32,7 +32,6 @@ try:
 except:
     pass
 
-import builtins as __builtin__
 
 RU = 'ru'
 EN = 'en'
