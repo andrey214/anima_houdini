@@ -2,14 +2,7 @@
 	"env" : 
 	[{
 			"ANIMADIR" : "path to Directory"
-		},
-		{
-			"HOUDINI_PATH": {
-                "method": "append", 
-                "value": [
-                    "$ANIMADIR"
-					]
-					
-		}}	
-	]
+		}
+	],
+    "path": "$ANIMADIR"
 }

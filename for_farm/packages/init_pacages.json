@@ -11,14 +11,7 @@
 		},
 		{
 		"BASEJOB" : "$JOB"
-		},
-		{
-			"HOUDINI_PATH": {
-                "method": "append", 
-                "value": [
-                    "$JOB/lib/houdini"
-					]
-			}
 		}
-	]
+	],
+    "path": "$JOB/lib/houdini"
 }
